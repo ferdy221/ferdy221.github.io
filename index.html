@@ -1,54 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Ferdy | Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    .container {
       max-width: 900px;
       margin: auto;
       padding: 20px;
-      background: #f5f5f5;
     }
-    h1 { color: #222; }
+    .hero {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .hero img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #4f46e5;
+    }
+    h1 {
+      margin: 10px 0 5px;
+    }
+    .role {
+      color: #4f46e5;
+      font-weight: bold;
+    }
     .box {
       background: white;
-      padding: 15px;
-      margin-bottom: 15px;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: white;
+      background: #4f46e5;
+      padding: 10px 15px;
       border-radius: 8px;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
 
-<h1>Hello, I'm Ferdy 👋</h1>
-<p>Freelance Web Developer.</p>
+  <div class="container">
 
-<div class="box">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML & CSS</li>
-    <li>Responsive Website</li>
-    <li>GitHub Pages</li>
-  </ul>
-</div>
+    <div class="hero">
+      <img src="profile.jpg" alt="Foto Ferdy">
+      <h1>Ferdy</h1>
+      <div class="role">Freelance Web Developer</div>
+      <p>I build simple, fast, and responsive websites for personal and business needs.</p>
+    </div>
 
-<div class="box">
-  <h2>Projects</h2>
+    <div class="box">
+      <h2>About Me</h2>
+      <p>
+        I am a beginner freelance web developer focused on creating clean and functional websites.
+        I am ready to help clients build landing pages, personal portfolios, and small business websites.
+      </p>
+    </div>
 
-  <h3>Business Website</h3>
-  <p>Website for small business.</p>
-  <a href="https://ferdy221.github.io/business-website">Live Demo</a> |
-  <a href="https://github.com/ferdy221/business-website">Source Code</a>
-</div>
+    <div class="box">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Responsive Design</li>
+        <li>GitHub Pages</li>
+        <li>Basic JavaScript</li>
+      </ul>
+    </div>
 
+    <div class="box">
+      <h2>Services</h2>
+      <ul>
+        <li>Personal Website</li>
+        <li>Portfolio Website</li>
+        <li>Landing Page</li>
+      </ul>
+    </div>
 
-<div class="box">
-  <h2>Contact</h2>
-  <p>Email: ferdy@email.com</p>
-</div>
+    <div class="box contact">
+      <h2>Contact</h2>
+      <a href="https://wa.me/62XXXXXXXXXX">WhatsApp</a>
+      <a href="mailto:emailkamu@gmail.com">Email</a>
+    </div>
+
+  </div>
 
 </body>
 </html>
